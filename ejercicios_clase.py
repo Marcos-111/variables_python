@@ -138,8 +138,10 @@ def ej5():
     # De la primera palabra tome las primeras tres letras, utilice el operador :
     sub_text1= palabra_1[:3]
     # De la segunda palabra tome las últimas tres letras, utilice el operador :
-    sub_text2= palabra_2[]
+    sub_text2= palabra_2[-3:]
     # Formar una nueva palabra con los recortes solicitados
+    suma= sub_text1+sub_text2
+    print(suma)
     # Imprima en pantalla los resultados
 
 if __name__ == '__main__':
